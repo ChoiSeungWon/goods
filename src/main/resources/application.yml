@@ -6,3 +6,5 @@ spring :
     url: jdbc:oracle:thin:@127.0.0.1:1521:orcl
     username: system
     password: root
+
+spring.batch.job.names: ${job.name:NONE}
